@@ -23,6 +23,7 @@ if(richiestaParola == richiestaParolaUnita){
   console.log('la parola non è palindroma');
 }*/
 
+/*
 //2 metodo trovato
 //Definisco le variabili
 
@@ -45,6 +46,26 @@ function invertiParola(parola){
   let parolaInversa = parola.split('').reverse().join('');  
   return parolaInversa;
 }
+*/
 
+const richiestaParola = prompt('Inserisci una parola, verificheremo se sia palindroma');
+console.log(richiestaParola);
+
+function invertire (parolaRichista) {
+    if (parolaRichista === "") {
+        return "";
+    } else {
+        return invertire(parolaRichista.substr(1)) + parolaRichista.charAt(0);
+    }
+}
+
+let parolaInvertita = invertire(richiestaParola)
+console.log(parolaInvertita)
+
+if(richiestaParola == parolaInvertita){
+  console.log('la parola è palindroma');
+} else {
+  console.log('la parola non è palindroma');
+}
 
 
