@@ -48,8 +48,16 @@ function invertiParola(parola){
 }
 */
 
+//3 metodo trovato
+//Definisco le variabili
+
 const richiestaParola = prompt('Inserisci una parola, verificheremo se sia palindroma');
 console.log(richiestaParola);
+
+let parolaInvertita = invertire(richiestaParola)
+console.log(parolaInvertita)
+
+//Predispongo la funzione di inversione
 
 function invertire (parolaRichista) {
     if (parolaRichista === "") {
@@ -59,8 +67,7 @@ function invertire (parolaRichista) {
     }
 }
 
-let parolaInvertita = invertire(richiestaParola)
-console.log(parolaInvertita)
+//Predispongo la condizione per verificare la palindromia
 
 if(richiestaParola == parolaInvertita){
   console.log('la parola è palindroma');
