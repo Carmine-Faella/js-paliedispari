@@ -60,8 +60,9 @@ console.log(parolaInvertita)
 //Predispongo la funzione di inversione
 
 function invertire (parolaRichista) {
-    if (parolaRichista === "") {
-        return "";
+    let parolaDaGirare = "";
+    if (parolaRichista === parolaDaGirare){
+        return parolaDaGirare;
     } else {
         return invertire(parolaRichista.substr(1)) + parolaRichista.charAt(0);
     }
