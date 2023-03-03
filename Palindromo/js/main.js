@@ -23,7 +23,7 @@ if(richiestaParola == richiestaParolaUnita){
   console.log('la parola non è palindroma');
 }*/
 
-/*
+
 //2 metodo trovato
 //Definisco le variabili
 
@@ -46,8 +46,8 @@ function invertiParola(parola){
   let parolaInversa = parola.split('').reverse().join('');  
   return parolaInversa;
 }
-*/
 
+/*
 //3 metodo trovato
 //Definisco le variabili
 
@@ -75,5 +75,5 @@ if(richiestaParola == parolaInvertita){
 } else {
   console.log('la parola non è palindroma');
 }
-
+*/
 
