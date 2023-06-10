@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.box{
+    text-align: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin-top: 1rem;
+    background: none;
+    color: white;
+    border-color: white;
+    padding: 0.5rem 1rem;
+}
+
+h1{
+    padding-bottom: 1rem;
+}
